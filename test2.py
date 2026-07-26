@@ -15,10 +15,10 @@
 
 # print("Hello".ljust(10),"Mel")
 
-a = input()
-b = input()
-c =int(a)
-d =int(b)
+a=input()
+b=input()
+c=int(a)
+d=int(b)
 
 if c > d:
     print(c)
@@ -26,3 +26,4 @@ elif c == d:
     print("equal")
 else :
     print(d)
+
