@@ -55,7 +55,7 @@ vat = round(subtotal*0.07, 2)
 if (price1 + price2 + price3) > 0:
     print("╔"+("═"*26)+"╗")
     print("║".ljust(2),"⋆ ˚｡⋆୨୧˚"+"\033[1m"+"Receipt"+"\033[0m"+"˚୨୧⋆｡˚ ⋆".ljust(5),"║")
-    print("║".ljust(3),("︶"*10).ljust(12),"║")
+    print("║".ljust(3),("="*20).ljust(22),"║")
     print("║".ljust(3),"\033[4m"+"Item"+"\033[0m".ljust(15)+"\033[4m"+"Price"+"\033[0m".ljust(6),"║")
 
 # ____________item1
@@ -87,6 +87,6 @@ if (price1 + price2 + price3) > 0:
 
     print("║".ljust(3),("-"*20).ljust(22),"║")
     print("║".ljust(3),"Total:".ljust(14),("฿"+ str(subtotal+vat)).ljust(7),"║",)
-    print("║".ljust(3),("︶"*10).ljust(12),"║")
+    print("║".ljust(3),("="*20).ljust(22),"║")
     print("║".ljust(4),"Thank you!(^ᴗ^ )~*".ljust(21),"║")
     print("╚"+("═"*26)+"╝")
