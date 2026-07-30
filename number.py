@@ -1,3 +1,5 @@
+# รับเลข 3 ตัว หาว่าตัวไหนมากที่สุด (ใช้ and เทียบทีละคู่)
+
 number1 = int(input("1. ").strip())
 number2 = int(input("2. ").strip())
 number3 = int(input("3. ").strip())
