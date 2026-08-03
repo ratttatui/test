@@ -8,3 +8,4 @@ elif day in ("monday","mon","tuesday","tue","wednesday","wed","thursday","thu","
     print("It's Weekday...😢💔💼🥀")
 else:
     print("🤨❓")
+
