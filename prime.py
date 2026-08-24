@@ -1,4 +1,5 @@
 a = int(input("enter your number: "))
+#นับเศษ ถ้าถึง 2 จะหยุด
 nub = 0
 
 for i in range(1,a+1,1):
